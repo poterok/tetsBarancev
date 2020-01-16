@@ -28,7 +28,14 @@ class TestTestname():
     self.driver.find_element_by_id("password").send_keys("2012Potr")
     time.sleep(1)
     self.driver.find_element_by_css_selector('span.rui-Button-content').click()
-    time.sleep(10)
+    time.sleep(1)
+    self.driver.find_element_by_css_selector('span.rui__1vTeO').click()
+    time.sleep(1)
 
+    # time.sleep(2)
+    self.driver.find_element_by_css_selector('a.rui__iDgq5').click()
+    time.sleep(10)
+    # self.driver.find_element_by_css_selector('a.rui__iDgq5')
+    # time.sleep(2)
 
   

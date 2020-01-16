@@ -1,0 +1,4 @@
+#!/Users/dimov_d/TetsProgects/Barancev Test QA/Barancev_Test_QA/env/bin/python
+
+import sel
+sel.main()
