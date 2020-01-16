@@ -36,6 +36,5 @@ class TestTestname():
     self.driver.find_element_by_css_selector('a.rui__iDgq5').click()
     time.sleep(10)
     # self.driver.find_element_by_css_selector('a.rui__iDgq5')
-    # time.sleep(2)
 
   
