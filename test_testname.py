@@ -38,6 +38,8 @@ class TestTestname():
     self.driver.find_element_by_css_selector('a.rui__iDgq5').click()
     time.sleep(1)
     self.driver.find_element_by_css_selector('#app > div.App-root-hg > div.AppContainer-root-3m.AutoAppContainer-root-2P > div.Header-root-2e.sc-bxivhb.hRHwcA > div > div.Header-main-jB > div.Header-headLinks-1F > div.tour__contacts-button > span > a > div > div > div > span:nth-child(2)').click()
+
+
     time.sleep(1)
 
     # Жмем еще
@@ -56,3 +58,8 @@ class TestTestname():
 
   def teardown_method(self, method):
     self.driver.quit()
+
+
+
+ # Test
+ 
