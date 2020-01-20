@@ -15,8 +15,7 @@ class TestTestname():
     self.driver = webdriver.Chrome()
     self.vars = {}
   
-  # def teardown_method(self, method):
-  #   self.driver.quit()
+
 
   name = 'Hello'
 
@@ -53,3 +52,7 @@ class TestTestname():
     #Сохраняем
     self.driver.find_element_by_css_selector('body > div.ReactModalPortal > div > div > div > div > div.Group-group-qo > form > div.Group-action-2M > button > span').click()
 
+
+
+  def teardown_method(self, method):
+    self.driver.quit()
