@@ -17,7 +17,6 @@ class TestTestname():
   
 
 
-  name = 'Hello'
 
 
   def test_testname(self):
@@ -45,21 +44,19 @@ class TestTestname():
     # Жмем еще
     self.driver.find_element_by_css_selector('#app > div.App-root-hg > div.AppContainer-root-3m.AutoAppContainer-root-2P > div.AutoAppContainer-inner-1B > div.AutoAppContainer-sidebar-LW > div > div > div > div.Sidebar-content-1p.sc-bdVaJa.dWoGOq > div > div > li > div > div > div > span:nth-child(1)').click()
 
-    # Создаем новую группу
-    self.driver.find_element_by_css_selector('#app > div.App-root-hg > div.AppContainer-root-3m.AutoAppContainer-root-2P > div.AutoAppContainer-inner-1B > div.AutoAppContainer-sidebar-LW > div > div > div > div.Sidebar-content-1p.sc-bdVaJa.dWoGOq > div > a > span:nth-child(2)').click()
-
-    # Ищем инпут Водим навание новой группы
-    self.driver.find_element_by_css_selector('body > div.ReactModalPortal > div > div > div > div > div.Group-group-qo > form > div.Input-root-35.Input-underlined-1I > div > input').send_keys(name + 'rwerwr')
-
-    #Сохраняем
-    self.driver.find_element_by_css_selector('body > div.ReactModalPortal > div > div > div > div > div.Group-group-qo > form > div.Group-action-2M > button > span').click()
-
-
-
-  def teardown_method(self, method):
-    self.driver.quit()
+    # # Создаем новую группу
+    # self.driver.find_element_by_css_selector('#app > div.App-root-hg > div.AppContainer-root-3m.AutoAppContainer-root-2P > div.AutoAppContainer-inner-1B > div.AutoAppContainer-sidebar-LW > div > div > div > div.Sidebar-content-1p.sc-bdVaJa.dWoGOq > div > a > span:nth-child(2)').click()
+    #
+    # # Ищем инпут Водим навание новой группы
+    # self.driver.find_element_by_css_selector('body > div.ReactModalPortal > div > div > div > div > div.Group-group-qo > form > div.Input-root-35.Input-underlined-1I > div > input').send_keys('Руддщ 123')
+    #
+    # #Сохраняем
+    # self.driver.find_element_by_css_selector('body > div.ReactModalPortal > div > div > div > div > div.Group-group-qo > form > div.Group-action-2M > button > span').click()
 
 
+    #Удаляем группу
+    self.driver.find_element_by_xpath("//*[contains(text(), 'Hello')]").click()
+    #def teardown_method(self, method):
+    #self.driver.quit()
 
- # Test
- 
+    # 213131

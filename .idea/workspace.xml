@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f71079-5387-4f10-9e3c-578323b2064c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_testname.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_testname.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_testname.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="466">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
@@ -47,6 +48,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,9 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_testname.TestTestname.test_testname" />
         <item itemvalue="Python tests.pytest in test_testname.py" />
+        <item itemvalue="Python tests.pytest for test_testname.TestTestname.test_testname" />
         <item itemvalue="Python tests.pytest for test_testname.TestTestname" />
+        <item itemvalue="Python tests.pytest in test_testname.py" />
+        <item itemvalue="Python tests.pytest for test_testname.TestTestname.test_testname" />
       </list>
     </recent_temporary>
   </component>
@@ -183,34 +191,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 12h 55m 58s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 51m 48s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 12h 57m 59s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 52m 29s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 02m 42s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 52m 50s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 04m 02s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 57m 39s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 05m 14s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 57m 55s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 06m 12s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 58m 30s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 06m 33s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 59m 27s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 06m 58s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 18h 01m 44s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 10m 14s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 18h 03m 00s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 13h 10m 53s.xml">
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 18h 06m 43s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
   </component>
@@ -225,20 +233,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1866" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32908705" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32908705" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_testname.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="466">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
           </folding>
