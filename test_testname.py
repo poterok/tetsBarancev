@@ -59,4 +59,13 @@ class TestTestname():
     #def teardown_method(self, method):
     #self.driver.quit()
 
+<<<<<<< HEAD
     # 213131
+=======
+  def teardown_method(self, method):
+    self.driver.quit()
+
+
+
+ # Test
+ 
