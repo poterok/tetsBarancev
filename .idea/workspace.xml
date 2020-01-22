@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81f71079-5387-4f10-9e3c-578323b2064c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_testname.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_testname.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_testname.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="791">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
@@ -161,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_testname.py" />
         <item itemvalue="Python tests.pytest for test_testname.TestTestname.test_testname" />
+        <item itemvalue="Python tests.pytest in test_testname.py" />
         <item itemvalue="Python tests.pytest for test_testname.TestTestname" />
         <item itemvalue="Python tests.pytest in test_testname.py" />
         <item itemvalue="Python tests.pytest for test_testname.TestTestname.test_testname" />
@@ -187,13 +186,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579518599168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ad new tex">
+      <created>1579534213037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579534213037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 51m 48s.xml">
-      <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 17h 52m 29s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
@@ -221,6 +224,9 @@
     <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.20 at 18h 06m 43s.xml">
       <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_testname_TestTestname_test_testname - 2020.01.22 at 15h 36m 08s.xml">
+      <configuration name="pytest for test_testname.TestTestname.test_testname" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,7 +245,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -253,28 +259,69 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Содаем новоую группу пользователей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Содаем новоую группу пользователей" />
+    <MESSAGE value="ad new tex" />
+    <option name="LAST_COMMIT_MESSAGE" value="ad new tex" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/test_testname.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="791">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#28#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_testname.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#28#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
