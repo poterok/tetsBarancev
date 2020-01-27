@@ -3,7 +3,6 @@ from selenium import webdriver
 import time
 
 
-
 class TestYandex():
     def setup_method(self, method):
         self.driver = webdriver.Chrome()
@@ -13,10 +12,8 @@ class TestYandex():
         self.open_site()
         self.login()
 
-
     def teardown_method(self, method):
         self.driver.quit()
-
 
     def open_site(self):
         self.driver.get("https://yandex.ru")
@@ -34,4 +31,12 @@ class TestYandex():
         self.driver.find_element_by_id('passp-field-passwd').send_keys('Mnata1991')
         self.driver.find_element_by_class_name('button2_type_submit').click()
 
-        time.sleep(2)
+        # Привязка номера ?
+        self.driver.find_element_by_css_selector('div.passp-auth')
+        self.driver.find_element_by_css_selector('div.passp-auth-content')
+        self.driver.find_element_by_class_name('passp-route-forward')
+        self.driver.find_element_by_class_name('passp-route-enter-done')
+
+    
+        # Пропустить
+        time.sleep(1001)
