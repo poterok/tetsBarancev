@@ -28,22 +28,32 @@ class TestYandex():
         self.open_site()
 
 
+
     def teardown_method(self, method):
         self.driver.quit()
+
+
+
+# Функции
+
 
     def open_site(self):
         self.driver.get("https://yandex.ru")
 
     def login(self):
         self.driver.find_element_by_link_text('Войти в почту').click()
+        time.sleep(1)
         self.driver.find_element_by_name('login').send_keys('poterok')
+        time.sleep(1)
         self.driver.find_element_by_class_name('passp-flex-wrapper')
         time.sleep(1)
         self.driver.find_element_by_class_name('button2_type_submit').click()
         time.sleep(1)
         self.driver.find_element_by_id('passp-field-passwd').send_keys('Mnata1991')
+        time.sleep(1)
         self.driver.find_element_by_class_name('button2_type_submit').click()
         time.sleep(3)
+
         # Привязка номера ?
         # self.driver.find_element_by_css_selector('div.passp-auth')
         # self.driver.find_element_by_css_selector('div.passp-auth-content')
@@ -86,6 +96,3 @@ class TestYandex():
         # # Удалить группу
         self.driver.find_element_by_xpath('//*[@id="nb-12"]/span/span/span').click()
         time.sleep(3)
-
-        # Пропустить
-        time.sleep(1)
