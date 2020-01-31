@@ -9,15 +9,16 @@ class TestYandex():
         self.driver = webdriver.Chrome()
         self.vars = {}
 
-    def test_1_delete_group(self):
-        self.open_site()
-        self.login()
-        self.go_to_contacts()
-        self.go_to_new_group()
-        self.go_to_settings_group()
-        self.choose_group_for_delete()
-        self.delete_group()
-        self.open_site()
+    # def test_1_delete_group(self):
+    #     self.open_site()
+    #     self.login()
+    #     self.go_to_contacts()
+    #     self.go_to_new_group()
+    #     self.go_to_settings_group()
+    #     self.choose_group_for_delete()
+    #     self.delete_group()
+    #     self.open_site()
+    #     self.logout()
 
 
     def test_2_create_new_group(self):
@@ -26,8 +27,12 @@ class TestYandex():
         self.go_to_contacts()
         self.create_new_group()
         self.open_site()
+        self.logout()
 
-
+    def test_3_login_logout(self):
+        self.open_site()
+        self.login()
+        self.logout()
 
     def teardown_method(self, method):
         self.driver.quit()
@@ -51,15 +56,21 @@ class TestYandex():
         time.sleep(1)
         self.driver.find_element_by_id('passp-field-passwd').send_keys('Mnata1991')
         time.sleep(1)
+        # Подтвердить
         self.driver.find_element_by_class_name('button2_type_submit').click()
         time.sleep(3)
 
-        # Привязка номера ?
-        # self.driver.find_element_by_css_selector('div.passp-auth')
-        # self.driver.find_element_by_css_selector('div.passp-auth-content')
-        # self.driver.find_element_by_class_name('passp-route-forward')
-        # self.driver.find_element_by_class_name('passp-route-enter-done')
-        # time.sleep(3)
+
+    def logout(self):
+        time.sleep(1)
+        self.driver.find_element_by_css_selector('div.mail-User-Name').click()
+        time.sleep(1)
+        self.driver.find_element_by_css_selector('div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front._nb-popup-outer.ui-dialog-no-close._nb-popup_to_bottom').find_element_by_link_text('Выйти из сервисов Яндекса').click()
+        time.sleep(2)
+
+
+
+
     def go_to_contacts(self):
         self.driver.find_element_by_link_text('Контакты').click()
         time.sleep(2)
