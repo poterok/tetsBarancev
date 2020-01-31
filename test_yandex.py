@@ -9,21 +9,21 @@ class TestYandex():
         self.driver = webdriver.Chrome()
         self.vars = {}
 
-    # def test_1_delete_group(self):
-    #     self.open_site()
-    #     self.login()
-    #     self.go_to_contacts()
-    #     self.go_to_new_group()
-    #     self.go_to_settings_group()
-    #     self.choose_group_for_delete()
-    #     self.delete_group()
-    #     self.open_site()
-    #     self.logout()
+    def test_1_delete_group(self):
+        self.open_site()
+        self.login(username='poterok', password='Mnata1991')
+        self.go_to_contacts()
+        self.go_to_new_group()
+        self.go_to_settings_group()
+        self.choose_group_for_delete()
+        self.delete_group()
+        self.open_site()
+        self.logout()
 
 
     def test_2_create_new_group(self):
         self.open_site()
-        self.login()
+        self.login(username='poterok', password='Mnata1991')
         self.go_to_contacts()
         self.create_new_group()
         self.open_site()
@@ -31,7 +31,7 @@ class TestYandex():
 
     def test_3_login_logout(self):
         self.open_site()
-        self.login()
+        self.login(username='poterok', password='Mnata1991')
         self.logout()
 
     def teardown_method(self, method):
@@ -45,16 +45,16 @@ class TestYandex():
     def open_site(self):
         self.driver.get("https://yandex.ru")
 
-    def login(self):
+    def login(self, username, password):
         self.driver.find_element_by_link_text('Войти в почту').click()
         time.sleep(1)
-        self.driver.find_element_by_name('login').send_keys('poterok')
+        self.driver.find_element_by_name('login').send_keys(username)
         time.sleep(1)
         self.driver.find_element_by_class_name('passp-flex-wrapper')
         time.sleep(1)
         self.driver.find_element_by_class_name('button2_type_submit').click()
         time.sleep(1)
-        self.driver.find_element_by_id('passp-field-passwd').send_keys('Mnata1991')
+        self.driver.find_element_by_id('passp-field-passwd').send_keys(password)
         time.sleep(1)
         # Подтвердить
         self.driver.find_element_by_class_name('button2_type_submit').click()
@@ -75,13 +75,13 @@ class TestYandex():
         self.driver.find_element_by_link_text('Контакты').click()
         time.sleep(2)
 
-    def create_new_group(self):
+    def create_new_group(self, group_name):
         # Создать группу
         self.driver.find_element_by_class_name('mail-LabelList').find_element_by_class_name('_nb-button-content').click()
         time.sleep(1)
 
         # Ввести название новой группы
-        self.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name('mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys('Новая группа')
+        self.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name('mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys(group_name)
         time.sleep(1)
 
         # Сохранить название группы
