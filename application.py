@@ -1,5 +1,6 @@
 
 from selenium import webdriver
+import time
 
 
 class Application:
@@ -7,6 +8,7 @@ class Application:
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(60)
+
 
     def open_site(self):
         self.driver.get("https://yandex.ru")
@@ -74,5 +76,5 @@ class Application:
         self.driver.find_element_by_xpath('//*[@id="nb-12"]/span/span/span').click()
         time.sleep(3)
 
-    def destrot(self):
+    def destroy(self):
         self.driver.quit()
