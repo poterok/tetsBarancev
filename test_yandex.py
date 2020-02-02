@@ -37,3 +37,4 @@ class TestYandex():
 
     def teardown_method(self):
         app.destroy()
+#
