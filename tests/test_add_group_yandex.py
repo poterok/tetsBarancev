@@ -3,7 +3,6 @@
 from model.group_auth import Group
 
 
-
 def test_2_create_new_group(app):
     app.open_site()
     app.session.login(Group(username='poterok', password='Mnata1991'))

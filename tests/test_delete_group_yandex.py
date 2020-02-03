@@ -4,11 +4,7 @@ from model.group_auth import Group
 
 
 
-
-
-
-
-def test_1_delete_group( app):
+def test_1_delete_group(app):
     app.open_site()
     app.session.login(Group(username='poterok', password='Mnata1991'))
     app.group.go_to_contacts()

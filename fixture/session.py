@@ -9,6 +9,7 @@ class SessionHelper:
         self.app.driver.find_element_by_link_text('Войти в почту').click()
         time.sleep(1)
         self.app.driver.find_element_by_name('login').send_keys(group_auth.username)
+        pass
         time.sleep(1)
         self.app.driver.find_element_by_class_name('passp-flex-wrapper')
         time.sleep(1)
