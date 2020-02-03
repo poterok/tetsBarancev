@@ -17,24 +17,22 @@ class TestYandex():
     def test_1_delete_group(self, app):
         app.open_site()
         app.session.login(Group(username='poterok', password='Mnata1991'))
-        app.go_to_contacts()
-        app.go_to_new_group()
-        app.go_to_settings_group()
-        app.choose_group_for_delete()
-        app.delete_group()
+        app.group.go_to_contacts()
+        app.group.go_to_new_group()
+        app.group.go_to_settings_group()
+        app.group.choose_group_for_delete()
+        app.group.delete_group()
         app.session.logout()
 
 
     def test_2_create_new_group(self,app):
         app.open_site()
-        app.login(Group(username='poterok', password='Mnata1991'))
-        app.go_to_contacts()
-        app.create_new_group(group_name="Новая группа")
-        app.logout()
+        app.session.login(Group(username='poterok', password='Mnata1991'))
+        app.group.go_to_contacts()
+        app.group.create_new_group(group_name="Новая группа")
+        app.session.logout()
 
     def test_3_login_logout(self, app):
         app.open_site()
         app.session.login(Group(username='poterok', password='Mnata1991'))
         app.session.logout()
-
-     
