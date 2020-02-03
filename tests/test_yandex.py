@@ -37,3 +37,4 @@ class TestYandex():
         app.session.login(Group(username='poterok', password='Mnata1991'))
         app.session.logout()
 
+     
