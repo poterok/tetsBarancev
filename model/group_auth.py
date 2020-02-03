@@ -4,3 +4,4 @@ class Group:
         self.username = username
         self.password = password
 
+

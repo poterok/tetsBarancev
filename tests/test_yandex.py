@@ -4,6 +4,7 @@ from model.group_auth import Group
 from fixture.application import Application
 import pytest
 
+
 @pytest.fixture
 def app(request):
     fixture = Application()
@@ -11,6 +12,7 @@ def app(request):
     return fixture
 
 class TestYandex():
+
 
     def test_1_delete_group(self, app):
         app.open_site()
@@ -20,15 +22,14 @@ class TestYandex():
         app.go_to_settings_group()
         app.choose_group_for_delete()
         app.delete_group()
-        app.open_site()
         app.logout()
 
 
     def test_2_create_new_group(self,app):
+        app.open_site()
         app.login(Group(username='poterok', password='Mnata1991'))
         app.go_to_contacts()
-        app.create_new_group()
-        app.open_site()
+        app.create_new_group(group_name="Новая группа")
         app.logout()
 
     def test_3_login_logout(self, app):
