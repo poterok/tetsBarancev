@@ -5,17 +5,17 @@ class SessionHelper:
     def __init__(self,app):
         self.app = app
 
-    def login(self, group_auth):
+    def login(self, auth):
         self.app.driver.find_element_by_link_text('Войти в почту').click()
         time.sleep(1)
-        self.app.driver.find_element_by_name('login').send_keys(group_auth.username)
+        self.app.driver.find_element_by_name('login').send_keys(auth.username)
         pass
         time.sleep(1)
         self.app.driver.find_element_by_class_name('passp-flex-wrapper')
         time.sleep(1)
         self.app.driver.find_element_by_class_name('button2_type_submit').click()
         time.sleep(1)
-        self.app.driver.find_element_by_id('passp-field-passwd').send_keys(group_auth.password)
+        self.app.driver.find_element_by_id('passp-field-passwd').send_keys(auth.password)
         time.sleep(1)
         # Подтвердить
         self.app.driver.find_element_by_class_name('button2_type_submit').click()
