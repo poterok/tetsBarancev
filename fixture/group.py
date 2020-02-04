@@ -16,7 +16,7 @@ class GroupHelper:
         time.sleep(1)
 
         # Ввести название новой группы
-        self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name('mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys(group_name)
+        self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name('mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys(group_name.group_name)
         time.sleep(1)
 
         # Сохранить название группы
