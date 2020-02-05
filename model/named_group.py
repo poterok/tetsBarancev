@@ -1,5 +1,5 @@
 
 class Group:
-    def __init__(self, name=  "New"):
+    def __init__(self, name=None):
         self.name = name
 

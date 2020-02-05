@@ -23,9 +23,9 @@ class GroupHelper:
         self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name('mail-AbookPopup-Selected-Buttons').find_element_by_css_selector('button.nb-button').click()
         time.sleep(1)
 
-    def go_to_new_group(self):
+    def go_to_new_group(self, group_name):
         # Перейти в группу
-        self.app.driver.find_element_by_link_text('Новая группа').click()
+        self.app.driver.find_element_by_link_text(group_name.name).click()
         time.sleep(2)
 
     def go_to_settings_group(self):
@@ -41,3 +41,44 @@ class GroupHelper:
     def delete_group(self):
         # # Удалить группу
         self.app.driver.find_element_by_xpath('//*[@id="nb-12"]/span/span/span').click()
+
+
+
+
+
+
+        # Если уже есть группа и нужно создать еще
+
+    def if_has_other_group(self):
+        if self.app.driver.find_element_by_class_name('mail-LabelList').find_element_by_class_name(
+                '_nb-button-content').click() is None:
+            time.sleep(2)
+            self.app.driver.find_element_by_link_text(group_name.name).click()
+            time.sleep(2)
+            self.app.driver.find_element_by_class_name('mail-LabelList-Setup').find_element_by_link_text(
+                'настроить…').click()
+            self.app.driver.find_element_by_link_text('Создать группу').click()
+            time.sleep(2)
+            self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name(
+                'mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys(group_name.name)
+            time.sleep(1)
+            # Сохранить название группы
+            self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name(
+                'mail-AbookPopup-Selected-Buttons').find_element_by_css_selector('button.nb-button').click()
+            time.sleep(1)
+        else:
+            # Создать группу
+            self.app.driver.find_element_by_class_name('mail-LabelList').find_element_by_class_name(
+                '_nb-button-content').click()
+            time.sleep(1)
+
+            # Ввести название новой группы
+            self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name(
+                'mail-AbookPopup-Right').find_element_by_class_name('nb-input').send_keys(group_name.name)
+            time.sleep(1)
+
+            # Сохранить название группы
+            self.app.driver.find_element_by_class_name('ui-dialog').find_element_by_class_name(
+                'mail-AbookPopup-Selected-Buttons').find_element_by_css_selector('button.nb-button').click()
+            time.sleep(1)
+
