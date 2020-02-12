@@ -1,0 +1,818 @@
+[
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "launch_number": "52"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 734,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "4F259E11-D470-41FC-8FF3-53029D7A9D47",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 547,
+    "carrier": "Unknown",
+    "timestamp": 1581329625117,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "first_open_date": "2020-01-31"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 735,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "518D3A9D-2E29-48DF-8582-AAA9A450D5DA",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 548,
+    "carrier": "Unknown",
+    "timestamp": 1581329625146,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "days_using": "10"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 736,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "23E9011D-CA5B-4D77-B995-56C5A4A51201",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 549,
+    "carrier": "Unknown",
+    "timestamp": 1581329625176,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 737,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "6AEBC9F9-1435-4271-BDAF-6A04037A8459",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 550,
+    "carrier": "Unknown",
+    "timestamp": 1581329625216,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 738,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "3BF92BDB-3C60-4B1C-873D-A0D306D5E0D8",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 551,
+    "carrier": "Unknown",
+    "timestamp": 1581329625250,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "open_app",
+    "sequence_number": 739,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {
+      "medium": "none",
+      "source": "none",
+      "push_coupon_code": "none",
+      "campaign": "none",
+      "push_action": "none",
+      "push_value": "none",
+      "push_initiative_id": "none",
+      "open_source": "direct",
+      "push_offer_id": "none"
+    },
+    "uuid": "107FC766-923E-40E3-AC65-F6A52BB1D9DA",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 188,
+    "carrier": "Unknown",
+    "timestamp": 1581329625117,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 740,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "8F5CCA2F-7999-47A1-A890-DF5EA7E72DCA",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 552,
+    "carrier": "Unknown",
+    "timestamp": 1581329642476,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 741,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "64A349DF-B9AF-4452-81D2-CB545FC4C744",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 553,
+    "carrier": "Unknown",
+    "timestamp": 1581329642511,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "view_catalog",
+    "sequence_number": 742,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {
+      "category_level_1": true
+    },
+    "uuid": "E6EFD498-CE9D-482A-B131-30E75455E407",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 189,
+    "carrier": "Unknown",
+    "timestamp": 1581329642456,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 743,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "D9298548-63AD-412E-B4EB-58583D355C2D",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 554,
+    "carrier": "Unknown",
+    "timestamp": 1581329643577,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 744,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "7D1F93F3-6616-40CC-B02A-B502F1199B26",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 555,
+    "carrier": "Unknown",
+    "timestamp": 1581329643616,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "view_catalog",
+    "sequence_number": 745,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {
+      "category_level_2": "Овощи, фрукты, ягоды, зелень, грибы"
+    },
+    "uuid": "CCDBA656-E2E5-49FC-8BD3-9FA800684A74",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 190,
+    "carrier": "Unknown",
+    "timestamp": 1581329643560,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 746,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "4077989F-88B1-4116-A52E-9F87C18168CA",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 556,
+    "carrier": "Unknown",
+    "timestamp": 1581329644845,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 747,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "2DC4DADF-F71D-4766-82EA-D24AE71C4DF0",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 557,
+    "carrier": "Unknown",
+    "timestamp": 1581329644893,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "view_catalog",
+    "sequence_number": 748,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {
+      "category_level_3": "Фрукты"
+    },
+    "uuid": "6E3651ED-F9BB-4543-A72B-FD938B404801",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 191,
+    "carrier": "Unknown",
+    "timestamp": 1581329644858,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 749,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "2F7B0783-200E-428E-8F34-EE676E79A47A",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 558,
+    "carrier": "Unknown",
+    "timestamp": 1581329647155,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 750,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "6B1E5FFD-671C-4224-9040-2EEA0E0E5669",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 559,
+    "carrier": "Unknown",
+    "timestamp": 1581329647200,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "view_banner",
+    "sequence_number": 751,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {
+      "promo_source": "catalog",
+      "banner_type": "listing",
+      "position": 5,
+      "promo_campaign": "liked"
+    },
+    "uuid": "F7DD5479-72FF-4C8D-9CCC-C27D3F2595FD",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 192,
+    "carrier": "Unknown",
+    "timestamp": 1581329647138,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 752,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "CD0BA68E-0AED-4403-AAA2-BD532CB2FA3B",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 560,
+    "carrier": "Unknown",
+    "timestamp": 1581329650171,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {
+      "$set": {
+        "user_interface_style": "white_mode"
+      }
+    },
+    "language": "Russian",
+    "event_type": "$identify",
+    "sequence_number": 753,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "61F2E406-EF06-4C0D-BA21-16292BF38502",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 561,
+    "carrier": "Unknown",
+    "timestamp": 1581329650207,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  },
+  {
+    "session_id": 1581328868558,
+    "user_properties": {},
+    "language": "Russian",
+    "event_type": "close_app",
+    "sequence_number": 754,
+    "user_id": "93788566",
+    "country": "Russia",
+    "api_properties": {
+      "ios_idfv": "DB321FDF-040D-4392-969A-AA5AA41A1AF8",
+      "location": {
+        "lat": 55.764739990234375,
+        "lng": 37.572036012228786
+      },
+      "ios_idfa": "CBD53622-F43C-4A33-B244-903F863F6601"
+    },
+    "device_id": "CBD53622-F43C-4A33-B244-903F863F6601",
+    "event_properties": {},
+    "uuid": "7521D7BC-DAE9-4B32-BC90-CBB811E2165B",
+    "device_manufacturer": "Apple",
+    "version_name": "2.33.0",
+    "library": {
+      "name": "amplitude-ios",
+      "version": "4.9.3"
+    },
+    "os_name": "ios",
+    "platform": "iOS",
+    "event_id": 193,
+    "carrier": "Unknown",
+    "timestamp": 1581329650120,
+    "groups": {},
+    "os_version": "13.1",
+    "device_model": "iPhone SE",
+    "group_properties": {}
+  }
+]
