@@ -6,8 +6,8 @@ from model.named_group import Group
 
 
 def test_1_delete_group(app):
-    app.open_site()
-    app.session.login(Auth(username='poterok', password='Mnata1991'))
+    # app.open_site()
+    # app.session.login(Auth(username='poterok', password='Mnata1991'))
     app.group.go_to_contacts()
     app.group.go_to_new_group(Group(name='new wew'))
     app.group.go_to_settings_group()

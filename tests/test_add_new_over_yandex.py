@@ -10,9 +10,9 @@ class GroupHelper:
 
 
 def test_4_create_new_group_over(app):
-    app.open_site()
-    app.session.login(Auth(username='poterok', password='Mnata1991'))
+    # app.open_site()
+    # app.session.login(Auth(username='poterok', password='Mnata1991'))
     app.group.go_to_contacts()
     time.sleep(2)
-    app.group.if_has_other_group(Group(name='new wew'))
+    app.group.create_delete_group(Group(name='new wew'))
     app.session.logout()

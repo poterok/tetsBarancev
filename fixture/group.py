@@ -49,13 +49,14 @@ class GroupHelper:
 
 
 
-        # Если уже есть группа и нужно создать еще
+        # Если уже есть группа то удк
 
-    def if_has_other_group(self, group_name):
+    def create_delete_group(self, group_name):
         try:
             self.app.driver.find_element_by_css_selector('div.mail-Layout-Aside-Inner').find_element_by_css_selector('div.ns-view-abook-left-box').find_element_by_css_selector('div.ns-view-abook-left').find_element_by_css_selector('span._nb-button-text')
             print('Кнопка "Создать группу" есть')
             self.create_new_group(group_name)
+            print('1')
         except:
             self.app.driver.find_element_by_css_selector('div.mail-Layout-Aside-Inner').find_element_by_css_selector('div.ns-view-abook-left-box').find_element_by_css_selector('div.mail-LabelList-Setup').find_element_by_css_selector('a.mail-LabelList-Setup_link').click()
             time.sleep(1)
