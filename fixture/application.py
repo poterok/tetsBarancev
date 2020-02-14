@@ -15,6 +15,13 @@ class Application:
         self.group = GroupHelper(self)
 
 
+    def valid(self):
+        try:
+            self.driver.current_url
+            return  True
+        except:
+            return False
+
 
     def open_site(self):
         self.driver.get("https://yandex.ru")

@@ -15,4 +15,4 @@ def test_4_create_new_group_over(app):
     app.group.go_to_contacts()
     time.sleep(2)
     app.group.create_delete_group(Group(name='new wew'))
-    app.session.logout()
+    # app.session.logout()
